@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">AiMCalculator</string>
+    <string name="app_name">Age in Minutes Calculator</string>
+    <string name="CALCULATE_YOUR">CALCULATE YOUR</string>
+    <string name="AGE">AGE</string>
+    <string name="IN_MINUTES">IN MINUTES</string>
+    <string name="SELECT_YOUR_DATE">SELECT YOUR DATE</string>
+    <string name="user_date">00.00.0000</string>
+    <string name="SELECTED_DATE">SELECTED DATE</string>
+    <string name="user_date_in_minutes">0</string>
+    <string name="IN_MINUTES_TILL_DATE">IN MINUTES TILL DATE</string>
 </resources>
