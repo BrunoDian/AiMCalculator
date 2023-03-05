@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Custom colors -->
+    <color name="app_bg">#EDF6F9</color>
+
+    <!-- For use in texts: -->
+    <color name="dark_txt">#E29578</color>
+    <color name="light_txt">#FFDDD2</color>
+
+    <!-- For use in objects -->
+    <color name="dark_obj">#006D77</color>
+    <color name="light_obj">#EDF6F9</color>
 </resources>
