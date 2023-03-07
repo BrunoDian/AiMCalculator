@@ -44,16 +44,17 @@
         />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_date_picker"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:backgroundTint="@color/dark_obj"
         android:textColor="@color/light_obj"
         android:textStyle="bold"
-        android:text="@string/SELECT_YOUR_DATE" />
+        android:text="@string/SELECT_YOUR_DATE_OF_BIRTH" />
 
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
@@ -61,8 +62,7 @@
         android:text="@string/user_date"
         android:textColor="@color/dark_txt"
         android:textSize="20sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -71,7 +71,9 @@
         android:textSize="12sp"
         android:textStyle="bold"
         />
+
     <TextView
+        android:id="@+id/tvTotalMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -79,12 +81,11 @@
         android:text="@string/user_date_in_minutes"
         android:textColor="@color/dark_txt"
         android:textSize="38sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/IN_MINUTES_TILL_DATE"
+        android:text="@string/MINUTES"
         android:textColor="@color/dark_txt"
         android:textSize="16sp"
         android:textStyle="bold"
